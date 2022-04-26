@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: ./compose/local/Dockerfile
+    container_name: app_test
+    ports:
+      - 5050:5050
+    env_file:
+      - .env.dev
+    volumes:
+      - ./src:/usr/code/src

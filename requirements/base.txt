@@ -1,0 +1,7 @@
+#? Base requirements
+
+#* Basic requirements to run the app
+flask
+
+#* Automatization
+invoke
