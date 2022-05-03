@@ -8,7 +8,7 @@ def get_os_name():
 
 
 @task
-def build(c, mode='dev'):
+def build(c, mode='dev'):   
 
     if get_os_name() == 'Windows':
         if(mode == 'prod'):
