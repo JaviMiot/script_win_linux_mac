@@ -1,7 +1,7 @@
 # Pre Requirements
 ``` 
-Pip: Installation - pip documentation v22.0.4 
-Python Invoke install: Installing — Invoke  documentation   
+Pip: Installation - https://pip.pypa.io/en/stable/installation/
+Python Invoke install: Installing — https://www.pyinvoke.org/installing.html
 ```
 ## Any OS
 
