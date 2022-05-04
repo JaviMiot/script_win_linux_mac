@@ -1,4 +1,4 @@
-## Linux
+## Linux & MacOS
 
 ### Build Image
 
@@ -28,18 +28,4 @@ python -m invoke build --mode=prod // build to production
 ```shell
 python -m invoke upApp //run app to development
 python -m invoke upApp --mode=prod //run app to production
-```
-## Mac Os
-
-### Build Image
-
-```shell
-invoke build //build to development
-invoke build --mode=prod // build to production
-```
-
-### Run app
-```shell
-invoke upApp //run app to development
-invoke upApp --mode=prod //run app to production
 ```
